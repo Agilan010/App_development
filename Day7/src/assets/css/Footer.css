@@ -1,0 +1,120 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Footer container styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    font-weight: normal;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Footer social media icons */
+  .footer-social-media {
+    margin-bottom: 20px;
+  }
+  
+  .footer-social-media__icon {
+    font-size: 25px;
+    margin: 0 10px;
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-social-media__icon:hover {
+    color: #0056b3;
+  }
+  
+  /* Footer information sections */
+  .footer-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .footer-info-left,
+  .footer-info-center,
+  .footer-info-right {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 10px;
+    white-space: 2px;
+  }
+  
+  .footer-info__name,
+  .footer-info__email,
+  .footer-info__number,
+  .footer-info__returns,
+  .footer-info__terms,
+  .footer-info__contact {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .footer-info__name,
+  .footer-info__returns {
+    text-align: left;
+  }
+  
+  .footer-info__email,
+  .footer-info__terms {
+    text-align: center;
+  }
+  
+  .footer-info__number,
+  .footer-info__contact {
+    text-align: right;
+  }
+  
+  /* Footer date separator */
+  .footer-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-separator {
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 100%;
+  }
+  
+  /* Footer name */
+  .footer-name {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-bottom__name {
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0 20px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Adjust link styles */
+  a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    padding: 10px;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
